@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "usuarios")
 @Data
 @AllArgsConstructor
-@NoArgsConstructor  // 👈 ESTE es el que faltaba
+@NoArgsConstructor  
 @Builder
 public class Usuario {
 

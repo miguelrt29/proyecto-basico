@@ -49,7 +49,7 @@ public class UsuarioController {
         ResponseEntity.ok(usuarios);
     }
 
-    // UPDATE
+    // ACTUALIZAR
 @PutMapping("/{id}")
 public ResponseEntity<UsuarioDTO> actualizarUsuario(
         @PathVariable Long id,
