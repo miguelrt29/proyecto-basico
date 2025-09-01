@@ -1,4 +1,4 @@
-REATE DATABASE primerproyecto_db;
+CREATE DATABASE primerproyecto_db;
 
 
 USE primerproyecto_db;
